@@ -1,0 +1,9 @@
+
+
+
+
+# DATASOURCE 
+spring.datasource.url=jdbc:sqlserver://databasenicole.mssql.somee.com
+spring.datasource.username=sanicole
+spring.datasource.password=@Nicole1604
+

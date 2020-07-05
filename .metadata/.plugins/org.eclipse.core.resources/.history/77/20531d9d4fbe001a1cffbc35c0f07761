@@ -1,0 +1,9 @@
+package br.com.etechorario.etecsys.model;
+
+public class Curso {
+
+	private Long id;
+	private String nome;
+	private String tipo;
+	private Integer modulos;
+}

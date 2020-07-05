@@ -1,0 +1,19 @@
+package br.com.etechorario.etecsys.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity
+@Table(name = "TBL_CURSO")
+public class Curso {
+
+	private Long id;
+	private String nome;
+	private String tipo;
+	private Integer modulos;
+}
